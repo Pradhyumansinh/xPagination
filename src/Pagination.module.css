@@ -1,0 +1,69 @@
+.container {
+    text-align: center;
+}
+
+.heading {
+    font-size: 30px;
+    color: rgb(63, 62, 62);
+}
+
+.table {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 13px 10px rgb(189, 189, 189);
+    border-bottom: 3px solid #309b74;
+}
+
+.table>thead {
+    background-color: #309b74;
+    height: 45px;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+    padding-left: 2px;
+}
+
+.tableheaddata {
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.tbody {
+    font-size: 5px;
+    text-align: left;
+    padding-left: 2px;
+}
+
+.table>tbody>tr {
+    height: 45px;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    text-align: left;
+    color: black;
+    padding-left: 2px;
+}
+
+.successbtn {
+    min-width: 40px;
+    height: 30px;
+    padding: 0px 15px 0px 15px;
+    background-color: #309b74;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+    cursor: pointer;
+}
+
+.countbtn {
+    min-width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #309b74;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+}
